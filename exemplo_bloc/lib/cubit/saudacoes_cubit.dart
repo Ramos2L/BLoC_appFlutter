@@ -20,7 +20,6 @@ class SaudacoesCubit extends Cubit<SaudacoesState> {
     } else if ( times == 4 ){
       emit(SaudacoesQuarta());
     } else {
-      print(times);
       emit(SaudacoesProxima());
     }
   }

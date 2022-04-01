@@ -55,7 +55,7 @@ class TextMessage extends StatelessWidget {
         } else if ( state is SaudacoesTerceira){
           message = 'Olá, sua terceira mensagem aqui.';
         } else {
-          message = 'Olá';
+          message = 'Olá, acabaram as frases';
         }
 
         return Text(
