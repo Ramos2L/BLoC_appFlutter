@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
                   final saudacoesCubit = context.read<SaudacoesCubit>();
                   saudacoesCubit.getProximaFraseState();
                 }, 
-                child: const Text('Proxima Frase')
+                child: const Text('Próxima Frase')
               ),
               TextButton(
                 onPressed: (){
